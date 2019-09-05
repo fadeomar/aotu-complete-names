@@ -1,0 +1,24 @@
+{
+  "name": "aotu-complete-names",
+  "version": "1.0.0",
+  "description": "to apply what I've learned in week 4 (Node js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadeomar/aotu-complete-names.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadeomar/aotu-complete-names/issues"
+  },
+  "homepage": "https://github.com/fadeomar/aotu-complete-names#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

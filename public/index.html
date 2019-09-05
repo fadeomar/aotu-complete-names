@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Auto Complete</title>
+
+    <!-- font library && font-awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google-font -->
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="https://img.icons8.com/officel/80/000000/search.png" type="image/x-icon">
+</head>
+
+<body>
+<header class="head">
+    <h1 class="head-title">Data Base For Names</h1>
+</header>
+<main class="main">
+<div class="main-inputForm">
+    <input type="text" placeholder="Enter The name ..." class="inputForm-inputField"
+     id="inputField" name ="inputField" list="listOption" required>
+     <datalist id="listOption">
+      </datalist>
+     <button id="searchBtn" class="inputForm-searchBtn" type="submit"> submit</button>
+</div>
+<div class="main-result">
+    
+</div>
+</main>
+    <!-- js files -->
+    <script src="./public/js/request.js"></script>
+    <script src="./public/js/dom.js"></script>
+
+</body>
+
+</html>
