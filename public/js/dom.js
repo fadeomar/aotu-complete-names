@@ -3,7 +3,7 @@ const searchInput = document.querySelector('.inputForm-inputField');
 const listOption = document.querySelector('#listOption');
 
 const randerNames = (data, status) => {
-    console.log(status)
+
   if (status !== 200 && !data) {
     const head = document.querySelector('.head');
     const errorMessage = document.createElement('span');

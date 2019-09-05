@@ -10,7 +10,7 @@ const router = (req, res) => {
     }else if(endpoint.includes('public')){
         files(req, res, endpoint, path);
     }else if(endpoint === '/name'){
-        console.log(req)
+
         find(req, res);
     }else{
         res.writeHead(404, {'Content-Type':'text/html'})
